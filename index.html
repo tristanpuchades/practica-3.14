@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA 9 FORMULARIOS </title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<H1 class="titulo">PRACTICA 9 FORMULARIOS </H1>
+
+<hr class="hr1">
+
+<H2 class="Subtitulo">FORMULARIO 1</H2>
+<section>
+<H3>Accede a tu Area Clientes</H3>  
+<form action="web.php">
+<P> Elige tu documento   <br>
+<p> <input checked type="radio" name="DOC"  id="DOC" value="DNI"> DNI o Tarjeta de residencia </p>
+<p> <input type="radio"  name="DOC"  id="DOC" value="PASPORT">Pasaporte </p>
+
+Número de documento
+<p> <input type="text" name="DOC" id="DOC" placeholder="DNI o Tarjeta de residencia " size="40"> </p>
+
+Fecha de nacimiento
+<P> 
+<input type="date" id="fecha" ></input>
+</P> 
+
+<P> 
+<input type="checkbox" id="recordar">Recordar <img src="simbolodepregunta.jpg" alt="imagen" width="30" height="15" style="vertical-align: middle"> </input>
+</P> 
+
+<p >
+<input type="submit" value="ENTRAR" style="color:white;background-color: orangered;border:orangered ;"<>
+</p>
+
+<p>> <a href='https://mestreacasa.gva.es/web/ieselgrao'> Acceder con DNI electrónico </a> </p>
+
+<p>> <a href='https://mestreacasa.gva.es/web/ieselgrao'> Más información sobre seguridad </a> </p>
+
+
+</form>
+
+</section
+<br><br>
+
+<hr size="10" color="orangered" width="50%" align="left">
+
+<H2 class="Subtitulo">FORMULARIO 2</H2>
+
+<section>
+
+<H3>Empieza creando tu usuario</H3>  
+<form action="web.php">
+ 
+<p> <input type="text"  name="DOC" id="DOC" placeholder="Nombre (como sale en DNI)" size="80"> </p>
+
+<p> <input type="text"  name="apell1" id="apell1" placeholder="1º Apellido (como sale en DNI)" size="37"> <input type="text"  name="apell2" id="apell2" placeholder="2º Apellido (como sale en DNI)" size="37">              </p>
+
+<p>
+<select name="menu" size="1" >
+<OPTGROUp label="TIPO DE DOCUMENTO  " ></OPTGROUp>
+<option value="0">DNI/NIF/AEAT </option>
+<option value="1">DNI</option>
+<option value="2">NIF</option>
+<option value="2">AEAT</option>
+</select>
+<input type="text"  name="DOC" id="DOC" placeholder="Numero de documento" size="40">
+</p>
+
+<p>
+
+<INPUT type="tel" id="movil" size="40" placeholder="Movil"></INPUT> 
+
+<INPUT type="email" id="mail" size="40" placeholder="Email"></INPUT> 
+</p>
+
+</form>
+</section
+
+
+<hr class="hr1">
+
+
+<H2 class="Subtitulo">FORMULARIO 3</H2>
+
+<section>
+<H3>¿Eres Nuevo?</H3>  
+<p>Registrate para guardar tu información y hacer <br>
+tus pedidos de forma más fácil y rápida</p>
+
+
+<form action="web.php">
+
+<p>Email <br>
+<INPUT type="email" id="mail" size="40" placeholder="Introduce tu Email"></INPUT> 
+</p>
+
+<p>Teléfono <br>
+<INPUT type="tel" id="movil" size="40" placeholder="Introduce tu teléfono"></INPUT> 
+</P>
+
+<p>Contraseña <br>
+<INPUT type="password" id="pass" size="40" placeholder="Introduce tu contraseña"></INPUT> 
+</p>
+
+
+<p>Confirma tu contraseña <br>
+<INPUT type="password" id="pass" size="40" placeholder="Confirma tu contraseña"></INPUT> 
+</p>
+
+
+<p> <input type="checkbox" id="POL" value="POL">He leído y acepto la<a href='https://mestreacasa.gva.es/web/ieselgrao'> Política de privacidad</a>
+</p>
+
+
+<p> <input type="checkbox" id="COM" value="COM"> Sí, acepto recibir comunicaciones comerciales <br> y ofertas personalizadas según mi perfil </p>
+
+
+<p >
+<input type="submit" value="Crea tu cuenta" style="color: white;background-color: yellowgreen;border: yellow;" >
+</p>
+
+
+
+</form>
+</section>
